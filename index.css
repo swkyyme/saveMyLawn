@@ -1,0 +1,75 @@
+#main {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	height: 500px;
+	border: 10px solid #268043;
+	background: white;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+
+h2 {
+	text-align: center;
+}
+
+#con {
+	border: white 2px solid;
+	position: relative;
+	top: -400px;
+	border-collapse: collapse;
+	cursor: url(./images/shovel30.png), auto;
+}
+.cell {
+	box-sizing: border-box;
+	height: 100px;
+	width: 100px;
+	border: white 1px solid;
+	background: #268043;
+}
+
+.grass {
+	background-image: url(./images/grass.png);
+	background-size: cover;
+}
+
+.operation {
+	font-family: fantasy;
+	position: relative;
+	top: 40px;
+	width: 200px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.score {
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.btn {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.start,
+.stop {
+	cursor: pointer;
+	margin: 20px auto;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	background: #268043;
+	line-height: 50px;
+	color: #fff;
+}
+
+.large {
+	font-size: 40px;
+}
+.green {
+	color: #268043;
+}
