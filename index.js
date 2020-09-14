@@ -23,7 +23,7 @@ function initGame() {
 
 function gameOver() {
 	stop();
-	confirm(`Game Over. Your score is ${score}`);
+	alert(`Game Over. Your score is ${score}`);
 	initGame();
 }
 
